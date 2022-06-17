@@ -12,10 +12,6 @@ class HomePageTest(TestCase):
         rows = table.find_elements_by_tag_name('tr')
         self.assertIn(row_text, [row.text for row in rows])
 
-    def test_only_saves_items_when_necessary(self):
-        self.client.get('/')
-        self.assertEqual(Item.objects.count(), 0)
-
 class ItemModelTest(TestCase):
 
     def test_saving_and_retrieving_items(self):
