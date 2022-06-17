@@ -1,0 +1,14 @@
+No nosso modelo de TDD, com testes funcionais e de unidade, o processo do TDD se complica um pouco
+ficando da seguinte maneira:
+- Escrevemos um Functional Test (FT)
+- Rodamos o FT e verificamos se passa;
+- - Se sim, verificamos se é necessario refatorar a aplicação;
+- - Se não, escrevemos um código mínimo conforme a seguir:
+- - - Escrevemos um Unit Test (UT);
+- - - Rodamos o UT e verificamos se passa;
+- - - - Se sim, verificamos se é necessário uma refatoração;
+- - - - Se não, escrevemos um código mínimo e rodamos o teste novamente, e ficamos nesse ciclo de escrever
+        um código mínimo e rodar os UT até passarem
+    rodamos os testes FT, e permanecemos nesse ciclo de escrever um código mínimo e rodar os FT, até os FTs passarem
+
+No fim, é o TDD com um segundo passo de TDD dentro dele basicamente.
