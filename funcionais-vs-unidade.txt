@@ -1,0 +1,5 @@
+O teste funcional visa garantir que a aplicação está funcionando corretamente, checando diversas
+funcionalidades e garantindo seus comportamentos esperados, podendo ser um teste bem 'pesado' e
+demorado.
+O teste unitário testa somente um pedaço do código, somente um comportamento em si, sendo também
+um teste bem mais rápido se conparado ao funcional
